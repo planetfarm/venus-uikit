@@ -176,7 +176,7 @@ export const socials = [
     label: "Twitter",
     icon: "TwitterIcon",
     href: "https://twitter.com/goosedefi",
-  }
+  },
 ];
 
 export const MENU_HEIGHT = 64;
