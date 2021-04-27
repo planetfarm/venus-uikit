@@ -47,6 +47,7 @@ const SettingsEntry = styled.div`
   color: #fc5130;
   justify-content: center;
   font-family: 'Nova Flat',sans-serif;
+  font-size: 1.5rem;
 `;
 
 const SocialEntry = styled.div`
