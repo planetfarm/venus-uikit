@@ -39,6 +39,7 @@ const BodyWrapper = styled.div`
   display: flex;
 `;
 
+
 const Inner = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   flex-grow: 1;
   margin-top: ${({ showMenu }) => (showMenu ? `${MENU_HEIGHT}px` : 0)};
