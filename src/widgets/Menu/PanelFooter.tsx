@@ -42,8 +42,11 @@ const SettingsEntry = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: ${MENU_ENTRY_HEIGHT}px;
+  height: 40px;
   padding: 0 8px;
+  color: #fc5130;
+  justify-content: center;
+  font-family: 'Nova Flat',sans-serif;
 `;
 
 const SocialEntry = styled.div`
@@ -77,6 +80,9 @@ const PanelFooter: React.FC<Props> = ({
 
   return (
     <Container>
+      <SettingsEntry>
+        Mercury
+      </SettingsEntry>
       <SocialEntry>
         {cakePriceUsd ? (
           <PriceLink href={priceLink} target="_blank">
