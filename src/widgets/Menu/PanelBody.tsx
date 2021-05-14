@@ -22,7 +22,19 @@ const Container = styled.div`
   height: 100%;
 `;
 
-const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
+const ChainContainer = styled.div`
+  display: flex;
+  margin-bottom: 0;
+  margin-top: auto;
+  justify-content: center;
+  padding: 20px 0;
+`; 
+
+const ChainLogo = styled.img`
+  height: 30px;
+`;
+
+const PanelBody: React.FC<Props> = ({ chain, isPushed, pushNav, isMobile, links }) => {
   const location = useLocation();
 
   // Close the menu when a user clicks a link on mobile
@@ -64,6 +76,9 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
           </MenuEntry>
         );
       })}
+      { isPushed && <ChainContainer>
+        <ChainLogo src={chain} />
+      </ChainContainer> }
     </Container>
   );
 };

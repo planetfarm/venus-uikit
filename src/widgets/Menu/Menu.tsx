@@ -60,6 +60,8 @@ const MobileOnlyOverlay = styled(Overlay)`
 `;
 
 const Menu: React.FC<NavProps> = ({
+  chain,
+  token,
   account,
   login,
   logout,
@@ -128,6 +130,8 @@ const Menu: React.FC<NavProps> = ({
       </StyledNav>
       <BodyWrapper>
         <Panel
+          chain={chain}
+          token={token}
           isPushed={isPushed}
           isMobile={isMobile}
           showMenu={showMenu}

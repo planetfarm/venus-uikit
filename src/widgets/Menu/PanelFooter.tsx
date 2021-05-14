@@ -44,7 +44,7 @@ const SettingsEntry = styled.div`
   justify-content: space-between;
   height: 40px;
   padding: 0 8px;
-  color: #fc5130;
+  color: #f18a4e;
   justify-content: center;
   font-family: 'Nova Flat',sans-serif;
   font-size: 1.5rem;
@@ -59,6 +59,7 @@ const SocialEntry = styled.div`
 `;
 
 const PanelFooter: React.FC<Props> = ({
+  token,
   isPushed,
   pushNav,
   toggleTheme,
@@ -82,7 +83,7 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <SettingsEntry>
-        Mars
+        {token}
       </SettingsEntry>
       <SocialEntry>
         {cakePriceUsd ? (

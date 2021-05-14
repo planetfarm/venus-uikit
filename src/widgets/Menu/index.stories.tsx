@@ -21,6 +21,8 @@ export const Connected: React.FC = () => {
   return (
     <BrowserRouter>
       <Menu
+        token="Mars"
+        chain="https://res.cloudinary.com/practicaldev/image/fetch/s--CQxkSEGl--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/4avmmo1fxglephg4kxp9.png"
         account="0xbdda50183d817c3289f895a4472eb475967dc980"
         login={noop}
         logout={noop}
