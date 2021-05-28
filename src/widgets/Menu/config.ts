@@ -29,6 +29,20 @@ export const links = [
     href: "/syrup",
   },
   {
+    label: 'Black Holes',
+    icon: 'BlackHoleIcon',
+    items: [
+      {
+        label: 'PantherSwap',
+        href: '/',
+      },
+      // {
+      //   label: 'Goose',
+      //   href: '/blackholes/goose',
+      // },
+    ]
+  },
+  {
     label: "Lottery",
     icon: "TicketIcon",
     href: "/lottery",
