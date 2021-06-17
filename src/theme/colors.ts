@@ -25,7 +25,7 @@ export const lightColors: Colors = {
   tertiary: "#EFF4F5",
   text: "#452A7A",
   textDisabled: "#BDC2C4",
-  textSubtle: "#f18a4e",
+  textSubtle: "#32a852",
   borderColor: "#E9EAEB",
   card: "#202020",
   menu: "#050401",
@@ -47,7 +47,7 @@ export const darkColors: Colors = {
   tertiary: "#1c2335",
   text: "#32a852", //#f18a4e
   textDisabled: "#6c757d",
-  textSubtle: "#f18a4e",
+  textSubtle: "#32a852",
   borderColor: "#524B63",
   card: "rgb(32 32 32 / 83%)",
   menu: "#050401",
