@@ -2873,7 +2873,7 @@ var light$5 = (_a = {},
         borderColorHover: "currentColor",
         boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
         boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
-        color: "#f18a4e",
+        color: "#32a852",
     },
     _a[SECONDARY] = {
         background: "transparent",
