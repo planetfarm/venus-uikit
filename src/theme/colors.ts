@@ -45,9 +45,9 @@ export const darkColors: Colors = {
   input: "#FFFFFF",
   primaryDark: "#0098A1",
   tertiary: "#1c2335",
-  text: "#32a852", //#f18a4e
+  text: "#d5af82", //#f18a4e
   textDisabled: "#6c757d",
-  textSubtle: "#32a852",
+  textSubtle: "#d5af82",
   borderColor: "#524B63",
   card: "rgb(32 32 32 / 83%)",
   menu: "#050401",
