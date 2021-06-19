@@ -18,7 +18,7 @@ const spinStyle = css`
 
 const Svg = styled.svg<SvgProps>`
   /* fill: ${({ theme, color }) => getThemeValue(`colors.${color}`, color)(theme)}; */
-  fill: #f18a4e;
+  fill: #d5af82;
   flex-shrink: 0;
 
   ${({ spin }) => spin && spinStyle}
