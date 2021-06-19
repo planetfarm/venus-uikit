@@ -134,6 +134,11 @@ export const socials = [
     icon: "TwitterIcon",
     href: "https://twitter.com/cosmosfarms",
   },
+  {
+    label: "Reddit",
+    icon: "RedditIcon",
+    href: "https://twitter.com/cosmosfarms",
+  }
 ];
 
 export const MENU_HEIGHT = 64;
