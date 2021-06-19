@@ -2278,6 +2278,11 @@ var socials = [
         icon: "TwitterIcon",
         href: "https://twitter.com/cosmosfarms",
     },
+    {
+        label: "Reddit",
+        icon: "RedditIcon",
+        href: "https://twitter.com/cosmosfarms",
+    }
 ];
 var MENU_HEIGHT = 64;
 var MENU_ENTRY_HEIGHT = 48;
@@ -2860,10 +2865,10 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#32a852", borderColor: "#E9EAEB", card: "#202020", menu: "#050401", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#d5af82", borderColor: "#E9EAEB", card: "#202020", menu: "#050401", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fc5130", background: "#0e121b", backgroundDisabled: "#ced4da", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#FFFFFF", primaryDark: "#0098A1", tertiary: "#1c2335", text: "#32a852", textDisabled: "#6c757d", textSubtle: "#32a852", borderColor: "#524B63", card: "rgb(32 32 32 / 83%)", menu: "#050401", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fc5130", background: "#0e121b", backgroundDisabled: "#ced4da", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#FFFFFF", primaryDark: "#0098A1", tertiary: "#1c2335", text: "#d5af82", textDisabled: "#6c757d", textSubtle: "#d5af82", borderColor: "#524B63", card: "rgb(32 32 32 / 83%)", menu: "#050401", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
