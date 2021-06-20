@@ -44,7 +44,7 @@ const SettingsEntry = styled.div`
   justify-content: space-between;
   height: 40px;
   padding: 0 8px;
-  color: #efab5a;
+  color: #f57fdb;
   justify-content: center;
   font-family: 'Nova Flat',sans-serif;
   font-size: 1.5rem;
