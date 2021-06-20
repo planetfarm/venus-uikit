@@ -137,7 +137,7 @@ export const socials = [
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href: "https://twitter.com/cosmosfarms",
+    href: "https://www.reddit.com/user/CosmosFarm/",
   }
 ];
 

@@ -2268,7 +2268,7 @@ var socials = [
     {
         label: "Reddit",
         icon: "RedditIcon",
-        href: "https://twitter.com/cosmosfarms",
+        href: "https://www.reddit.com/user/CosmosFarm/",
     }
 ];
 var MENU_HEIGHT = 64;
@@ -2386,11 +2386,11 @@ var Container$4 = styled.div(templateObject_1$C || (templateObject_1$C = __makeT
     var theme = _a.theme;
     return theme.nav.background;
 });
-var PriceLink = styled.a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
+styled.a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var SettingsEntry = styled.div(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 40px;\n  padding: 0 8px;\n  color: #fbce98;\n  justify-content: center;\n  font-family: 'Nova Flat',sans-serif;\n  font-size: 1.5rem;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 40px;\n  padding: 0 8px;\n  color: #fbce98;\n  justify-content: center;\n  font-family: 'Nova Flat',sans-serif;\n  font-size: 1.5rem;\n"])));
 var SocialEntry = styled.div(templateObject_4$2 || (templateObject_4$2 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
-    var token = _a.token, isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; var cakePriceUsd = _a.cakePriceUsd; _a.currentLang; _a.langs; _a.setLang; var priceLink = _a.priceLink;
+    var token = _a.token, isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; _a.cakePriceUsd; _a.currentLang; _a.langs; _a.setLang; _a.priceLink;
     if (!isPushed) {
         return (React.createElement(Container$4, null,
             React.createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
@@ -2399,9 +2399,6 @@ var PanelFooter = function (_a) {
     return (React.createElement(Container$4, null,
         React.createElement(SettingsEntry, null, token),
         React.createElement(SocialEntry, null,
-            cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
-                React.createElement(Icon$v, { width: "24px", mr: "8px" }),
-                React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 })),
             React.createElement(Flex, null, socials.map(function (social, index) {
                 var Icon = Icons$1[social.icon];
                 var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
@@ -2855,7 +2852,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#fbce98", borderColor: "#E9EAEB", card: "#202020", menu: "#050401", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fc5130", background: "#0e121b", backgroundDisabled: "#ced4da", contrast: "#fbce98", invertedContrast: "#191326", input: "#FFFFFF", primaryDark: "#0098A1", tertiary: "#1c2335", text: "#fbce98", textDisabled: "#6c757d", textSubtle: "#fbce98", borderColor: "#524B63", card: "rgb(146 4 116 / 75%)", menu: "#050401", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fbce98", background: "#0e121b", backgroundDisabled: "#ced4da", contrast: "#fbce98", invertedContrast: "#191326", input: "#FFFFFF", primaryDark: "#0098A1", tertiary: "#1c2335", text: "#fbce98", textDisabled: "#6c757d", textSubtle: "#fbce98", borderColor: "#524B63", card: "rgb(146 4 116 / 75%)", menu: "#050401", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
