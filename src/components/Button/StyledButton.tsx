@@ -45,13 +45,21 @@ const getButtonVariantProp = (prop: keyof ButtonThemeVariant) => ({
   return theme.button[variant][prop];
 };
 
+const getButtonTextColor = () => ({
+  theme,
+  variant = variants.PRIMARY,
+}: ThemedProps) => {
+  if(variant === variants.TERTIARY || variant === variants.SECONDARY || variant === variants.TEXT) return 'white'
+  return 'rgb(32 32 32)'
+};
+
 const StyledButton = styled.button<ButtonProps>`
   align-items: center;
   background-color: ${getButtonVariantProp("background")};
   border: ${getButtonVariantProp("border")};
   border-radius: 16px;
   box-shadow: ${getButtonVariantProp("boxShadow")};
-  color: ${getButtonVariantProp("color")};
+  color: ${getButtonTextColor()};
   cursor: pointer;
   display: inline-flex;
   font-family: inherit;
