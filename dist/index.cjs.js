@@ -2884,10 +2884,10 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#fbce98", borderColor: "#E9EAEB", card: "#202020", menu: "#050401", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#fbce98", borderColor: "#E9EAEB", card: "#202020", modalCard: "rgb(32 32 32)", menu: "#050401", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fbce98", background: "#0e121b", backgroundDisabled: "#ced4da", contrast: "#fbce98", invertedContrast: "#191326", input: "#FFFFFF", primaryDark: "#0098A1", tertiary: "#1c2335", text: "#fbce98", textDisabled: "#6c757d", textSubtle: "#fbce98", borderColor: "#524B63", card: "rgb(146 4 116 / 75%)", menu: "#050401", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fbce98", background: "#0e121b", backgroundDisabled: "#ced4da", contrast: "#fbce98", invertedContrast: "#191326", input: "#FFFFFF", primaryDark: "#0098A1", tertiary: "#1c2335", text: "#fbce98", textDisabled: "#6c757d", textSubtle: "#fbce98", borderColor: "#524B63", card: "rgb(146 4 116 / 75%)", modalCard: "rgb(32 32 32)", menu: "#050401", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
@@ -3025,10 +3025,10 @@ var dark$5 = {
 };
 
 var light$6 = {
-    background: lightColors.card,
+    background: lightColors.modalCard,
 };
 var dark$6 = {
-    background: darkColors.card,
+    background: darkColors.modalCard,
 };
 
 var darkTheme = __assign(__assign({}, base), { isDark: true, alert: dark, button: dark$1, colors: darkColors, card: dark$2, toggle: dark$4, nav: dark$5, modal: dark$6, radio: dark$3 });

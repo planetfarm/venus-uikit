@@ -28,6 +28,7 @@ export const lightColors: Colors = {
   textSubtle: "#fbce98",
   borderColor: "#E9EAEB",
   card: "#202020",
+  modalCard: "rgb(32 32 32)",
   menu: "#050401",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
@@ -50,6 +51,7 @@ export const darkColors: Colors = {
   textSubtle: "#fbce98", // icons
   borderColor: "#524B63",
   card: "rgb(146 4 116 / 75%)",
+  modalCard: "rgb(32 32 32)",
   menu: "#050401",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
