@@ -138,6 +138,11 @@ export const socials = [
     label: "Reddit",
     icon: "RedditIcon",
     href: "https://www.reddit.com/user/CosmosFarm/",
+  },
+  {
+    label: "Medium",
+    icon: "MediumIcon",
+    href: "https://cosmosfarm.medium.com/",
   }
 ];
 

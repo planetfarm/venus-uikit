@@ -42,6 +42,7 @@ const SettingsEntry = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  justify-content: center;
   height: 40px;
   padding: 0 8px;
   color: #fbce98;
@@ -94,6 +95,8 @@ const PanelFooter: React.FC<Props> = ({
         ) : (
           <Skeleton width={80} height={24} />
         )}
+      </SocialEntry>
+      <SocialEntry>
         <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
